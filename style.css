@@ -495,7 +495,7 @@ footer {
 }
 
 .img-portfolio2 {
-  background: url("./assets/bilder1.png");
+  background: url("./assets/bild1.png");
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -617,6 +617,11 @@ button a {
   }
 }
 /* Json file style */
+
+.json-style {
+  display: grid;
+  grid-column: 1/-1;
+}
 
 .prf-name-first-cv {
   display: flex;
