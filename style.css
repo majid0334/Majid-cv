@@ -193,7 +193,7 @@ footer {
   color: white;
 }
 
-.container-cv img {
+/* .container-cv img {
   width: 100%;
 }
 
@@ -206,8 +206,8 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 0rem;
 }
-
-.profile-cv {
+ */
+/* .profile-cv {
   grid-column: 1 / -1;
   margin-bottom: 4rem;
 }
@@ -215,11 +215,11 @@ footer {
 .cont-profile-cv {
   display: flex;
   gap: 2rem;
-}
+} */
 
-.prf-img-cv {
+/* .prf-img-cv {
   max-width: 250px;
-}
+} */
 
 .prf-name-first-cv {
   font-weight: 400;
@@ -460,7 +460,6 @@ footer {
 }
 
 .img-portfolio {
-  background: url("assets/bilder1.png");
   background-size: cover;
   background-position: center;
   min-height: 200px;
@@ -496,7 +495,7 @@ footer {
 }
 
 .img-portfolio2 {
-  background: url("./assets/Skärmbild\ \(7\).png");
+  background: url("./assets/bilder1.png");
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -587,6 +586,19 @@ footer {
   padding: 0.2rem;
 }
 
+button {
+  background-color: rgb(95, 214, 95);
+}
+
+.button2 {
+  background-color: burlywood;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 500px) {
   ul li {
     padding: 0 0 0 0;
@@ -603,4 +615,60 @@ footer {
     background-position: center;
     padding: 1rem;
   }
+}
+/* Json file style */
+
+.prf-name-first-cv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.description-cv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 1.5rem;
+}
+
+.prf-name-last-cv {
+  display: flex;
+  font-weight: 500;
+  font-size: clamp(1rem, 5vw, 2rem);
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+  margin-top: 0.1rem;
+}
+.tittle1-cv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0.1rem;
+}
+
+.json-highest {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 2rem;
+}
+
+.edu-item2-cv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0.1rem;
 }

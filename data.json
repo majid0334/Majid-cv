@@ -1,0 +1,29 @@
+{
+  "cv": {
+    "aboutMe": {
+      "firstName": "Majid",
+      "lastName": "Moradi",
+      "tittle": "Softwere devolepor",
+      "passion": "Technology is something that I have been interested in since I  was five years old"
+    },
+
+    "highesteducation": {
+      "name": "Chas Academy Stockholm 2022-2024",
+      "infoUniversity": "Studying fullstack Javascriprt development"
+    },
+
+    "infoHighschool": {
+      "highSchool": "Sundsta-älvkullen Gymnasium 2019-2022",
+      "city": "Karlstad",
+      "name": "Teknikprogrammet/informations mediateknik",
+      "courses": "Programing 1 and Webdevelepment 1"
+    },
+
+    "work": {
+      "name": "Foodora rider",
+      "infoWork": "3 month working for Foodora"
+    },
+
+    "adress": "Adress: nats och dags gränd 24 Stockholm 165 53"
+  }
+}
