@@ -25,20 +25,8 @@ async function getSometing() {
                     <h2 class="tittle1-cv">${resume.work.name}</h2>
                     <p class="edu-item2-cv">${resume.work.infoWork}</p>
                     <p class="tittle1-cv">${resume.adress}</p>
-                    
- 
                       `;
-    /*  const html = 
- 
-<li class="hero-stat"><p class="prf-name-first-cv">${resume.aboutMe.firstName}</p></li>
- 
-; */
 
-    // Lägg till i Domen efter preferesner
-    /*  stats.forEach((heroStat) => {
-       const markup = `<li> ${heroStat} </li>`;
-     }); */
-    /*  document.querySelector("ul").insertAdjacentHTML("beforeend", html); */
     document.querySelector("ul").appendChild(li);
   } else {
     console.log("HTTP-Error" + response.status);
