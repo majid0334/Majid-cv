@@ -591,12 +591,13 @@ button {
 }
 
 .button2 {
+  text-decoration: none;
   background-color: burlywood;
 }
 
-button a {
+.button-style {
   text-decoration: none;
-  color: black;
+  color: rgb(29, 235, 70);
 }
 
 .modal2 {
