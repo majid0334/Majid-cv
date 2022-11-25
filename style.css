@@ -592,7 +592,13 @@ button {
 
 .button2 {
   text-decoration: none;
-  background-color: burlywood;
+  color: burlywood;
+  padding: 2rem;
+}
+
+.button2 a {
+  text-decoration: none;
+  color: burlywood;
 }
 
 .button-style {
